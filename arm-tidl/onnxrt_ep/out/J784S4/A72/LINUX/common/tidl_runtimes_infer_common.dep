@@ -1,0 +1,7 @@
+/home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o: \
+ /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/src/armv8/../../../common/tidl_runtimes_infer_common.cpp \
+ /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/src/armv8/../../../common/tidl_runtimes_infer_common.h \
+ /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/src/armv8/../../../rt/inc/itidl_ti.h \
+ /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/ivision/ivision.h \
+ /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/ivision/ti/xdais/ialg.h \
+ /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/src/armv8/../../../rt/inc/itidl_rt.h

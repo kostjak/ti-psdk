@@ -1,0 +1,46 @@
+From 56ef1f57dbf7e78b793e0d878975bb9be81f1b1d Mon Sep 17 00:00:00 2001
+From: Lucas Weaver <l-weaver@ti.com>
+Date: Fri, 21 Feb 2025 11:12:08 -0600
+Subject: [PATCH] [FRAMEWORK] Adding workaround for LDC write node issue
+
+---
+ .../framework/vx_target_acquire_parameters.c  | 23 +------------------
+ 1 file changed, 1 insertion(+), 22 deletions(-)
+
+diff --git a/source/framework/vx_target_acquire_parameters.c b/source/framework/vx_target_acquire_parameters.c
+index b86a9085..5c53de92 100644
+--- a/source/framework/vx_target_acquire_parameters.c
++++ b/source/framework/vx_target_acquire_parameters.c
+@@ -350,28 +350,7 @@ static void ownTargetNodeDescReleaseParameter(
+         {
+             obj_desc->in_node_done_cnt = obj_desc->in_node_done_cnt + 1U;
+ 
+-            /* In order to fix TIOVX-956 and TIOVX-1151, the bracketed logic was added to handle multiple obj arr
+-             * situations. The bug found that when a replicated node output was consumed by both another
+-             * replicated node as well as a node consuming the full object array, the reference was never
+-             * released. This was because the do_release_ref_to_queue was not set to true because the two consumed
+-             * descriptors were different, i.e., the replicated node input was an element of an obj array
+-             * and the full obj array was the obj array itself.  Therefore, instead of checking the
+-             * in_node_done_cnt of the obj_desc, we need to also query the parent_obj_desc to see if this obj desc
+-             * has also been released and check this against the check the data_ref_q_obj_desc->num_in_nodes. */
+-            {
+-                parent_obj_desc = ownObjDescGet(obj_desc->scope_obj_desc_id);
+-
+-                if(parent_obj_desc!=NULL)
+-                {
+-                    num_in_nodes = obj_desc->in_node_done_cnt + parent_obj_desc->in_node_done_cnt;
+-                }
+-                else
+-                {
+-                    num_in_nodes = obj_desc->in_node_done_cnt;
+-                }
+-            }
+-
+-            if(num_in_nodes==data_ref_q_obj_desc->num_in_nodes)
++            if (do_release_ref == (vx_bool)vx_true_e)
+             {
+                 do_release_ref_to_queue = (vx_bool)vx_true_e;
+                 /* Note: This is needed because the delay obj_desc does not get re-acquired for each slot.
+-- 
+2.34.1
+

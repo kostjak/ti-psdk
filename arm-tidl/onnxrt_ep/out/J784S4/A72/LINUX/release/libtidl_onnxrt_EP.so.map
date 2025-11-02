@@ -1,0 +1,684 @@
+
+Merging program properties
+
+Removed property 0xc0000000 to merge /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o (0x3) and /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o (not found)
+Removed property 0xc0000000 to merge /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o (not found) and /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o (0x3)
+Removed property 0xc0000000 to merge /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o (not found) and /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o (0x3)
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ .group         0x0000000000000000        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .text._ZNSt6vectorIiSaIiEED2Ev
+                0x0000000000000000       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .group         0x0000000000000000        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIS6_IS5_S5_ES7_ESt4lessIS5_ESaIS6_IKS5_S8_EEED2Ev
+                0x0000000000000000       0xb0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .text._ZNSt4pairIS_INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ES6_ED2Ev
+                0x0000000000000000       0x70 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .text._ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC2IRA12_KcSA_Lb1EEEOT_OT0_
+                0x0000000000000000      0x178 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .gcc_except_table._ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC2IRA12_KcSA_Lb1EEEOT_OT0_
+                0x0000000000000000       0x14 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .text._ZNSt4pairIS_INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ES6_EC2IS6_S6_Lb1EEERKS6_SA_
+                0x0000000000000000      0x280 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .gcc_except_table._ZNSt4pairIS_INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ES6_EC2IS6_S6_Lb1EEERKS6_SA_
+                0x0000000000000000       0x20 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .text._ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES_IS_IS5_S5_ES7_EEC2IS6_S8_Lb1EEERS6_RKS8_
+                0x0000000000000000      0x31c /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .gcc_except_table._ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES_IS_IS5_S5_ES7_EEC2IS6_S8_Lb1EEERS6_RKS8_
+                0x0000000000000000       0x26 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S6_IS6_IS5_S5_ES8_EESt10_Select1stISA_ESt4lessIS5_ESaISA_EE24_M_get_insert_unique_posERS7_
+                0x0000000000000000      0x180 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIS6_IS5_S5_ES7_ESt4lessIS5_ESaIS6_IKS5_S8_EEEC2ESt16initializer_listISC_ERKSA_RKSD_
+                0x0000000000000000      0x470 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+START GROUP
+END GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libdl.a
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libstdc++.so
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libm.so
+START GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/usr/lib/libm.so.6
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/usr/lib/libmvec.so.1
+END GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libgcc_s.so
+START GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libgcc_s.so.1
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/libgcc.a
+END GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libc.so
+START GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/usr/lib/libc.so.6
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/usr/lib/libc_nonshared.a
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/usr/lib/ld-linux-aarch64.so.1
+END GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libgcc_s.so
+START GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/libgcc_s.so.1
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/libgcc.a
+END GROUP
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+LOAD /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+                0x00000000000001c8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000001c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000001c8       0x24 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001f0      0x1bc
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001f0      0x1bc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.dynsym         0x00000000000003b0      0xd20
+ *(.dynsym)
+ .dynsym        0x00000000000003b0      0xd20 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.dynstr         0x00000000000010d0     0x1777
+ *(.dynstr)
+ .dynstr        0x00000000000010d0     0x1777 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.gnu.version    0x0000000000002848      0x118
+ *(.gnu.version)
+ .gnu.version   0x0000000000002848      0x118 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.gnu.version_d  0x0000000000002960        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000002960        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.gnu.version_r  0x0000000000002960      0x100
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000002960      0x100 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.rela.dyn       0x0000000000002a60      0x210
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000002a60       0x18 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000002a78       0x18 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000002a90      0x180 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000002c10        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .rela.fini_array
+                0x0000000000002c10       0x18 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .rela.init_array
+                0x0000000000002c28       0x48 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.rela.plt       0x0000000000002c70      0x990
+ *(.rela.plt)
+ .rela.plt      0x0000000000002c70      0x990 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ *(.rela.iplt)
+
+.init           0x0000000000003600       0x1c
+ *(SORT_NONE(.init))
+ .init          0x0000000000003600       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+                0x0000000000003600                _init
+ .init          0x0000000000003610        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.plt            0x0000000000003620      0x680
+ *(.plt)
+ .plt           0x0000000000003620      0x680 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ *(.iplt)
+
+.text           0x0000000000003ca0     0x8bf0
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000003ca0      0x5c4 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ *fill*         0x0000000000004264        0xc 1f2003d5
+ .text.startup  0x0000000000004270      0x584 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000047f4       0x14 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ *fill*         0x0000000000004808        0x8 1f2003d5
+ .text          0x0000000000004810       0xc8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ *fill*         0x00000000000048d8        0x8 1f2003d5
+ .text          0x00000000000048e0     0x43e8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000004b10                TIDL_setDefaultOptions
+                0x0000000000004b80                TIDL_computeImportFunc
+                0x0000000000004ba0                TIDLEP_checkCompatibility
+                0x0000000000004bb0                TIDLEP_getDdrStats
+                0x0000000000004bd0                TIDL_computeInvokeFunc
+                0x0000000000004bf0                TIDL_releaseRtFunc
+                0x0000000000004c10                TIDL_populateOptions
+                0x0000000000006190                TIDL_splitStringWithDelimiter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+                0x0000000000006510                TIDL_readOnnxRtMetaDataForInference
+                0x0000000000007eb0                TIDL_createStateInferFunc
+                0x0000000000008060                TIDL_getSupportedNodesInfer
+ *fill*         0x0000000000008cc8        0x8 1f2003d5
+ .text._ZNKSt5ctypeIcE8do_widenEc
+                0x0000000000008cd0        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000008cd0                std::ctype<char>::do_widen(char) const
+ *fill*         0x0000000000008cd8        0x8 1f2003d5
+ .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIS6_IS5_S5_ES7_ESt4lessIS5_ESaIS6_IKS5_S8_EEED2Ev
+                0x0000000000008ce0       0xb0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000008ce0                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::~map()
+                0x0000000000008ce0                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::~map()
+ .text._ZNSt4pairIS_INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ES6_ED2Ev
+                0x0000000000008d90       0x70 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000008d90                std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~pair()
+                0x0000000000008d90                std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~pair()
+ .text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
+                0x0000000000008e00       0x80 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000008e00                std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+                0x0000000000008e00                std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+ .text._ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC2IRA12_KcSA_Lb1EEEOT_OT0_
+                0x0000000000008e80      0x178 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000008e80                std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pair<char const (&) [12], char const (&) [12], true>(char const (&) [12], char const (&) [12])
+                0x0000000000008e80                std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pair<char const (&) [12], char const (&) [12], true>(char const (&) [12], char const (&) [12])
+ *fill*         0x0000000000008ff8        0x8 1f2003d5
+ .text._ZNSt4pairIS_INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ES6_EC2IS6_S6_Lb1EEERKS6_SA_
+                0x0000000000009000      0x280 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000009000                std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+                0x0000000000009000                std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+ .text._ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES_IS_IS5_S5_ES7_EEC2IS6_S8_Lb1EEERS6_RKS8_
+                0x0000000000009280      0x31c /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000009280                std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, true>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+                0x0000000000009280                std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, true>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+ *fill*         0x000000000000959c        0x4 1f2003d5
+ .text._ZNSt6vectorIiSaIiEED2Ev
+                0x00000000000095a0       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x00000000000095a0                std::vector<int, std::allocator<int> >::~vector()
+                0x00000000000095a0                std::vector<int, std::allocator<int> >::~vector()
+ .text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
+                0x00000000000095b0      0x23c /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x00000000000095b0                void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ *fill*         0x00000000000097ec        0x4 1f2003d5
+ .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S6_IS6_IS5_S5_ES8_EESt10_Select1stISA_ESt4lessIS5_ESaISA_EE24_M_get_insert_unique_posERS7_
+                0x00000000000097f0      0x180 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x00000000000097f0                std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIS6_IS5_S5_ES7_ESt4lessIS5_ESaIS6_IKS5_S8_EEEC2ESt16initializer_listISC_ERKSA_RKSD_
+                0x0000000000009970      0x470 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000009970                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::map(std::initializer_list<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > const&)
+                0x0000000000009970                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > >::map(std::initializer_list<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > const&)
+ .text._ZSt16__do_uninit_copyIPKSt6vectorIiSaIiEEPS2_ET0_T_S7_S6_
+                0x0000000000009de0      0x150 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000009de0                std::vector<int, std::allocator<int> >* std::__do_uninit_copy<std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*)
+ .text          0x0000000000009f30     0x1008 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+                0x0000000000009f30                TIDL_readBinFromFile
+                0x0000000000009fb0                TIDL_osrtDebugPrint
+                0x000000000000a040                TIDL_checkIsDir
+                0x000000000000a0a0                TIDL_printSubgraphStats
+                0x000000000000a120                TIDL_subgraphRtCreate
+                0x000000000000a970                TIDL_subgraphRtDelete
+                0x000000000000a9f0                TIDL_rtLoadSymbols
+                0x000000000000aad0                TIDL_readAllowedNodesList
+ *fill*         0x000000000000af38        0x8 1f2003d5
+ .text._ZNSt6vectorIS_IiSaIiEESaIS1_EEC2ESt16initializer_listIS1_ERKS2_
+                0x000000000000af40      0x19c /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+                0x000000000000af40                std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(std::initializer_list<std::vector<int, std::allocator<int> > >, std::allocator<std::vector<int, std::allocator<int> > > const&)
+                0x000000000000af40                std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(std::initializer_list<std::vector<int, std::allocator<int> > >, std::allocator<std::vector<int, std::allocator<int> > > const&)
+ *fill*         0x000000000000b0dc        0x4 1f2003d5
+ .text._ZNSt6vectorIiSaIiEE17_M_realloc_insertIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_
+                0x000000000000b0e0      0x170 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+                0x000000000000b0e0                void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ .text._ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+                0x000000000000b250      0x35c /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+                0x000000000000b250                void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&)
+ *fill*         0x000000000000b5ac        0x4 1f2003d5
+ .text          0x000000000000b5b0      0xfec /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+                0x000000000000b980                TIDL_ortGetType(long, int*, int*)
+                0x000000000000baa0                TIDL_ortUpdateType(int*)
+                0x000000000000bac0                TIDL_setRtTensorParameters(sTIDLRT_Tensor_t*, sTIDLRT_Tensor_t**, int, sTIDL_IOBufDesc_t*, sTIDL_tidlRtDynamicLoading_t*, onnxRtParams_t*, int, int)
+                0x000000000000be80                TIDL_subgraphRtInvoke(int, OnnxTIDLSubGraphParams*, sTIDL_tidlRtDynamicLoading_t*, int)
+                0x000000000000c000                getTidlRtOutShapeEnv()
+                0x000000000000c040                TIDL_getOutputShape
+                0x000000000000c410                TIDLEP_getSubGraphStats
+ *fill*         0x000000000000c59c        0x4 1f2003d5
+ .text._ZNSt6vectorIlSaIlEED2Ev
+                0x000000000000c5a0       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+                0x000000000000c5a0                std::vector<long, std::allocator<long> >::~vector()
+                0x000000000000c5a0                std::vector<long, std::allocator<long> >::~vector()
+ .text._ZNSt6vectorIlSaIlEE17_M_realloc_insertIJRKlEEEvN9__gnu_cxx17__normal_iteratorIPlS1_EEDpOT_
+                0x000000000000c5b0      0x170 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+                0x000000000000c5b0                void std::vector<long, std::allocator<long> >::_M_realloc_insert<long const&>(__gnu_cxx::__normal_iterator<long*, std::vector<long, std::allocator<long> > >, long const&)
+ .text._ZNSt6vectorImSaImEE17_M_realloc_insertIJmEEEvN9__gnu_cxx17__normal_iteratorIPmS1_EEDpOT_
+                0x000000000000c720      0x170 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+                0x000000000000c720                void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long&&)
+ .text          0x000000000000c890        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+ .text          0x000000000000c890        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000000c890       0x18
+ *(SORT_NONE(.fini))
+ .fini          0x000000000000c890        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+                0x000000000000c890                _fini
+ .fini          0x000000000000c89c        0xc /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x000000000000c8b0      0xaf0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.8
+                0x000000000000c8b0      0xad7 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                                        0x638 (size before relaxing)
+ .rodata._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_.str1.8
+                0x000000000000d387       0x1a /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ *fill*         0x000000000000d387        0x9 
+ .rodata.cst16  0x000000000000d390       0x10 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .rodata.str1.8
+                0x000000000000d3a0      0x2f4 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .rodata._ZNSt6vectorIS_IiSaIiEESaIS1_EEC2ESt16initializer_listIS1_ERKS2_.str1.8
+                0x000000000000d3a0       0x31 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .rodata._ZNSt6vectorIiSaIiEE17_M_realloc_insertIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_.str1.8
+                0x000000000000d3a0       0x1a /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .rodata.str1.8
+                0x000000000000d3a0      0x264 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .rodata._ZNSt6vectorIlSaIlEE17_M_realloc_insertIJRKlEEEvN9__gnu_cxx17__normal_iteratorIPlS1_EEDpOT_.str1.8
+                0x000000000000d3a0       0x1a /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000d3a0      0x1e4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000d3a0      0x1e4 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+                0x000000000000d3a0                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000d588      0xdac
+ *(.eh_frame)
+ .eh_frame      0x000000000000d588       0x78 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ .eh_frame      0x000000000000d600      0x6e8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                                        0x700 (size before relaxing)
+ .eh_frame      0x000000000000dce8      0x2b8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+                                        0x2f8 (size before relaxing)
+ .eh_frame      0x000000000000dfa0      0x390 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+                                        0x5e0 (size before relaxing)
+ .eh_frame      0x000000000000e330        0x4 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gcc_except_table
+                0x000000000000e334      0x649
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC2IRA12_KcSA_Lb1EEEOT_OT0_
+                0x000000000000e334       0x14 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .gcc_except_table._ZNSt4pairIS_INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ES6_EC2IS6_S6_Lb1EEERKS6_SA_
+                0x000000000000e348       0x20 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .gcc_except_table._ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES_IS_IS5_S5_ES7_EEC2IS6_S8_Lb1EEERS6_RKS8_
+                0x000000000000e368       0x26 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ *fill*         0x000000000000e38e        0x2 
+ .gcc_except_table
+                0x000000000000e390      0x438 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .gcc_except_table
+                0x000000000000e7c8      0x103 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ *fill*         0x000000000000e8cb        0x1 
+ .gcc_except_table
+                0x000000000000e8cc       0xb1 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000001fd40                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000001fd40       0x18
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000001fd40        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ .init_array    0x000000000001fd48        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .init_array    0x000000000001fd50        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+
+.fini_array     0x000000000001fd58        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000001fd58        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000001fd60        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000001fd60        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+
+.dynamic        0x000000000001fd60      0x200
+ *(.dynamic)
+ .dynamic       0x000000000001fd60      0x200 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+                0x000000000001fd60                _DYNAMIC
+
+.got            0x000000000001ff60       0x88
+ *(.got)
+ .got           0x000000000001ff60       0x88 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+                0x000000000001ff60                _GLOBAL_OFFSET_TABLE_
+ *(.igot)
+                0x000000000001ffe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x000000000001ffe8      0x348
+ *(.got.plt)
+ .got.plt       0x000000000001ffe8      0x348 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ *(.igot.plt)
+
+.data           0x0000000000020330       0x10
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000020330        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .data          0x0000000000020330        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ .data.rel.local
+                0x0000000000020330        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+                0x0000000000020330                __dso_handle
+ .data          0x0000000000020338        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000020338        0x8 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+                0x0000000000020338                DW.ref.__gxx_personality_v0
+ .data          0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .data          0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .data          0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+ .data          0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.tm_clone_table
+                0x0000000000020340        0x0
+ .tm_clone_table
+                0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ .tm_clone_table
+                0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000020340                . = ALIGN (ALIGNOF (NEXT_SECTION))
+                [!provide]                        PROVIDE (__bss_start = .)
+                [!provide]                        PROVIDE (__bss_start__ = .)
+
+.bss            0x0000000000020340       0x70
+ *(.dynbss)
+ .dynbss        0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000020340        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .bss           0x0000000000020340        0x1 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+ *fill*         0x0000000000020341        0x7 
+ .bss           0x0000000000020348       0x38 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .bss           0x0000000000020380        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .bss           0x0000000000020380       0x30 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .bss           0x00000000000203b0        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+ .bss           0x00000000000203b0        0x0 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+ *(COMMON)
+                0x00000000000203b0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                [!provide]                        PROVIDE (_bss_end__ = .)
+                [!provide]                        PROVIDE (__bss_end__ = .)
+                0x00000000000203b0                . = ALIGN (0x8)
+                0x00000000000203b0                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000000203b0                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (__end__ = .)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x00000000000203b0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x12
+ *(.comment)
+ .comment       0x0000000000000000       0x12 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtbeginS.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../onnxrt_ep.o
+ .comment       0x0000000000000012       0x13 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_runtimes_infer_common.o
+ .comment       0x0000000000000012       0x13 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/module/src.armv8/../../../common/tidl_onnxrt_common.o
+ .comment       0x0000000000000012       0x13 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/aarch64-oe-linux/13.4.0/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x90
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x50 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .debug_aranges
+                0x0000000000000050       0x40 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000       0x57
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x34 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .debug_info    0x0000000000000034       0x23 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.debug_abbrev   0x0000000000000000       0x36
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x24 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .debug_abbrev  0x0000000000000024       0x12 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.debug_line     0x0000000000000000       0xe2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x7e /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .debug_line    0x000000000000007e       0x64 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000       0x71
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x71 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+                                         0x57 (size before relaxing)
+ .debug_str     0x0000000000000071       0x4a /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000       0x43
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000       0x43 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+                                         0x3c (size before relaxing)
+ .debug_line_str
+                0x0000000000000043       0x3c /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x0000000000000000       0x4c
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x0000000000000000       0x2b /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crti.o
+ .debug_rnglists
+                0x000000000000002b       0x21 /home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/targetfs/lib/crtn.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+ *(.ARM.attributes)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/home/dockeruser/psdk_installer_build_top_workarea/scratch_workarea/ti-processor-sdk-rtos-j784s4-evm-11_01_00_04/c7x-mma-tidl/arm-tidl/onnxrt_ep/out/J784S4/A72/LINUX/release/libtidl_onnxrt_EP.so.1.0 elf64-littleaarch64)
+LOAD linker stubs

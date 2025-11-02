@@ -1,0 +1,26 @@
+var group__group__vx__framework__config =
+[
+    [ "Context Configuration", "group__group__vx__context__cfg.html", "group__group__vx__context__cfg" ],
+    [ "Graph Configuration", "group__group__vx__graph__cfg.html", "group__group__vx__graph__cfg" ],
+    [ "Node Configuration", "group__group__vx__node__cfg.html", "group__group__vx__node__cfg" ],
+    [ "Data Object: Array Configuration", "group__group__vx__array__cfg.html", "group__group__vx__array__cfg" ],
+    [ "Data Object: Convolution Configuration", "group__group__vx__convolution__cfg.html", "group__group__vx__convolution__cfg" ],
+    [ "Data Object: Distribution Configuration", "group__group__vx__distribution__cfg.html", "group__group__vx__distribution__cfg" ],
+    [ "Data Object: Delay Configuration", "group__group__vx__delay__cfg.html", "group__group__vx__delay__cfg" ],
+    [ "Data Object: Image Configuration", "group__group__vx__image__cfg.html", "group__group__vx__image__cfg" ],
+    [ "Data Object: LUT Configuration", "group__group__vx__lut__cfg.html", "group__group__vx__lut__cfg" ],
+    [ "Data Object: Matrix Configuration", "group__group__vx__matrix__cfg.html", "group__group__vx__matrix__cfg" ],
+    [ "Data Object: Object Array Configuration", "group__group__vx__object__array__cfg.html", "group__group__vx__object__array__cfg" ],
+    [ "Data Object: Pyramid Configuration", "group__group__vx__pyramid__cfg.html", "group__group__vx__pyramid__cfg" ],
+    [ "Data Object: Raw Image Configuration", "group__group__tivx__raw__image__cfg.html", "group__group__tivx__raw__image__cfg" ],
+    [ "Data Object: Remap Configuration", "group__group__vx__remap__cfg.html", "group__group__vx__remap__cfg" ],
+    [ "Data Object: Scalar Configuration", "group__group__vx__scalar__cfg.html", "group__group__vx__scalar__cfg" ],
+    [ "Data Object: Tensor Configuration", "group__group__vx__tensor__cfg.html", "group__group__vx__tensor__cfg" ],
+    [ "Data Object: Threshold Configuration", "group__group__vx__threshold__cfg.html", "group__group__vx__threshold__cfg" ],
+    [ "Data Object: User Data Object Configuration", "group__group__vx__user__data__cfg.html", "group__group__vx__user__data__cfg" ],
+    [ "Miscellaneous Objects Configuration", "group__group__vx__misc__cfg.html", "group__group__vx__misc__cfg" ],
+    [ "TI Extensions", "group__group__vx__ti__extensions__cfg.html", "group__group__vx__ti__extensions__cfg" ],
+    [ "Module Configuration Configuration", "group__group__vx__module__cfg.html", "group__group__vx__module__cfg" ],
+    [ "Object Configuration", "group__group__tivx__obj__cfg.html", null ],
+    [ "Object Descriptor Configuration", "group__group__tivx__obj__desc__cfg.html", "group__group__tivx__obj__desc__cfg" ]
+];

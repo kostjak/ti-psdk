@@ -1,0 +1,58 @@
+var group__group__tivx__ext__host =
+[
+    [ "Super Node Framework Type APIs", "group__group__super__node.html", "group__group__super__node" ],
+    [ "Kernel Helper APIs", "group__group__tivx__ext__host__kernel.html", "group__group__tivx__ext__host__kernel" ],
+    [ "Utility APIs", "group__group__tivx__ext__host__utils.html", "group__group__tivx__ext__host__utils" ],
+    [ "Platform OSAL APIs", "group__group__tivx__osal.html", "group__group__tivx__osal" ],
+    [ "Debug APIs", "group__group__vx__debug.html", "group__group__vx__debug" ],
+    [ "Real-time Trace APIs", "group__group__tivx__log__rt__trace__host.html", "group__group__tivx__log__rt__trace__host" ],
+    [ "Tensor Data Type APIs", "group__group__object__tensor.html", "group__group__object__tensor" ],
+    [ "Raw Image Data Type APIs", "group__group__raw__image.html", "group__group__raw__image" ],
+    [ "Node APIs", "group__group__tivx__node.html", "group__group__tivx__node" ],
+    [ "Reference APIs", "group__group__tivx__reference.html", "group__group__tivx__reference" ],
+    [ "Graph APIs", "group__group__tivx__graph.html", "group__group__tivx__graph" ],
+    [ "Kernel APIs", "group__group__tivx__kernel.html", "group__group__tivx__kernel" ],
+    [ "Attribute Extension APIs", "group__group__tivx__attribute__extension.html", "group__group__tivx__attribute__extension" ],
+    [ "TIVX_TARGET_MAX_NAME", "group__group__tivx__ext__host.html#ga0731c235cd560c819c84532ca108f8f2", null ],
+    [ "TIVX_TARGET_HOST", "group__group__tivx__ext__host.html#ga428b100613e60406a63693e75b7ba6bf", null ],
+    [ "TIVX_CONFIG_PATH_LENGTH", "group__group__tivx__ext__host.html#ga38e7064937506c8ae840dc6eb779dda9", null ],
+    [ "dimof", "group__group__tivx__ext__host.html#ga077bde7b4af50f959972477bba9569ef", null ],
+    [ "tivx_df_image_e", "group__group__tivx__ext__host.html#ga2934cd1d530431f23bb7c461abc528df", [
+      [ "TIVX_DF_IMAGE_P12", "group__group__tivx__ext__host.html#gga2934cd1d530431f23bb7c461abc528dfa3f7d7ab076f3762b91df963819d57bd7", null ],
+      [ "TIVX_DF_IMAGE_NV12_P12", "group__group__tivx__ext__host.html#gga2934cd1d530431f23bb7c461abc528dfa0c8b284f95128121aa61c17c8246650d", null ],
+      [ "TIVX_DF_IMAGE_RGB565", "group__group__tivx__ext__host.html#gga2934cd1d530431f23bb7c461abc528dfa9b6b77ae52be28c1cebc104e4c6b73ad", null ],
+      [ "TIVX_DF_IMAGE_BGRX", "group__group__tivx__ext__host.html#gga2934cd1d530431f23bb7c461abc528dfaed64a45c871568d7099341b90219a5c4", null ]
+    ] ],
+    [ "tivx_status_e", "group__group__tivx__ext__host.html#ga099269c99c700c272751d57dc26f77e7", [
+      [ "TIVX_STATUS_BASE", "group__group__tivx__ext__host.html#gga099269c99c700c272751d57dc26f77e7ac023684789ddabd9ea9d7531d575b9cd", null ]
+    ] ],
+    [ "tivx_cpu_id_e", "group__group__tivx__ext__host.html#ga56b14c79b967d7f5f4170aab3befca6f", [
+      [ "TIVX_CPU_ID_DSP_C7_2", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa2edb3e77ad0777693d353c6dafd96842", null ],
+      [ "TIVX_CPU_ID_DSP_C7_1", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa1b37d2413938e3d19fd0d7f2d86cb685", null ],
+      [ "TIVX_CPU_ID_DSP1", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa431c12c168d1c32cb48e82cde09e4fcf", null ],
+      [ "TIVX_CPU_ID_MCU2_0", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa33365339634479d19f7326d38f506484", null ],
+      [ "TIVX_CPU_ID_VPAC1", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa3725e9a75de630f49fd12d8644053e2f", null ],
+      [ "TIVX_CPU_ID_VIDEO_IO", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fafec0addb52cca3d0bd28a6547fd42a0a", null ],
+      [ "TIVX_CPU_ID_MCU2_1", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa50c66c74864bb850cea7dd7d50cad3c3", null ],
+      [ "TIVX_CPU_ID_DMPAC", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa71dffdc0371bcc7b0501089f51a2e75b", null ],
+      [ "TIVX_CPU_ID_MPU_0", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa39ff4f5af67fc23d34a3a984f5b6de7d", null ],
+      [ "TIVX_CPU_ID_MCU3_0", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa467e0b72b3b9ea8c4e84d2c07d846f2e", null ],
+      [ "TIVX_CPU_ID_MCU3_1", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa09f80fc1ab250cd3cacf617ebc639277", null ],
+      [ "TIVX_CPU_ID_MCU4_0", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa864527cf9c0d4e942973cb3cd30df982", null ],
+      [ "TIVX_CPU_ID_VPAC2", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fafb9595143b531a5cf2200473b26da6d0", null ],
+      [ "TIVX_CPU_ID_MCU4_1", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa06c377185c28eefd02bc26fe5b32111e", null ],
+      [ "TIVX_CPU_ID_DSP_C7_3", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa24c9fb053bf151a2c7352bd774da9b4f", null ],
+      [ "TIVX_CPU_ID_DSP_C7_4", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa34813e79795be75a297bf54ac4e807fc", null ],
+      [ "TIVX_CPU_ID_MAX", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa23df6ff4453761e35f6eae30a53c5aa8", null ],
+      [ "TIVX_CPU_ID_INVALID", "group__group__tivx__ext__host.html#gga56b14c79b967d7f5f4170aab3befca6fa8fb4520a5808a352c17c464440d926d0", null ]
+    ] ],
+    [ "tivxInit", "group__group__tivx__ext__host.html#gad7aa0fdded06205fb515f77c60e8cac7", null ],
+    [ "tivxDeInit", "group__group__tivx__ext__host.html#gafe743fcbf54158387579a1f36ec1070b", null ],
+    [ "tivxHostInit", "group__group__tivx__ext__host.html#ga31ae176c89afc45e20c15ed60b0023d0", null ],
+    [ "tivxHostDeInit", "group__group__tivx__ext__host.html#gafa17594a1ffb93ab47b3da495242bfd1", null ],
+    [ "tivxRegisterModule", "group__group__tivx__ext__host.html#ga7194f59e8a633e8ffb01b2780c4fa2e3", null ],
+    [ "tivxUnRegisterModule", "group__group__tivx__ext__host.html#ga7184b1de63bc5033055426020b15a72c", null ],
+    [ "tivxGetSelfCpuId", "group__group__tivx__ext__host.html#ga391ddeb83fbd4d6cffead6536fe8fd22", null ],
+    [ "tivxIsTargetEnabled", "group__group__tivx__ext__host.html#ga9af5ff0ef3ca024c67c47b66aaf3ae69", null ],
+    [ "tivxPlatformGetTimeInUsecs", "group__group__tivx__ext__host.html#gafe9199791da44e9a0b0a26c81cf49180", null ]
+];
