@@ -382,6 +382,7 @@ YOCTO_VARS = PROFILE=release \
 	TIDL_PATH=$(PSDK_PATH)/tidl_j7
 
 yocto_build:
+	$(COPYDIR) $(PSDK_PATH)/psdk_include/* $(PSDK_PATH)/.
 	$(YOCTO_VARS) $(MAKE) app_utils
 	$(YOCTO_VARS) $(MAKE) imaging
 	$(YOCTO_VARS) $(MAKE) video_io
